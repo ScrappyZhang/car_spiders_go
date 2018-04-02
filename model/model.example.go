@@ -12,9 +12,9 @@ import (
 var (
 	DB *gorm.DB
 
-	username string = "root"
-	password string = "hitzzy"
-	dbName   string = "ershouche"
+	username string = "username"
+	password string = "password"
+	dbName   string = "tablename"
 )
 
 //初始化model就连接数据库
